@@ -51,7 +51,15 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #333;
+    height: 100vh;
+}
+
+#particles-js{
+    position: fixed;
+    height: 100%;
+    background: black;
+    z-index: -2;
+    width: 100vw;
 }
 
 .timeLine{
