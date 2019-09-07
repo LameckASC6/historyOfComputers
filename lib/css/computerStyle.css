@@ -3,17 +3,19 @@
 }
 
 .border:hover{
-    border: 4px solid #E60000;
+    border: 1vw solid #E60000;
 }
 
 .containersLeft{
+    order: -1;
     width: 30vw;
     color: whitesmoke;
     background-color: whitesmoke;
-    border: 4px solid #0892d0;
+    border: 1vw solid #0892d0;
     border-radius: 2vw;
     padding-left: 2%;
     padding-right: 2%;
+    margin-right: 6vw;
     text-align: center;
     visibility: hidden;
     color: black;
@@ -25,13 +27,15 @@
 }
 
 .containersRight{
+    order: 1;
     width: 30vw;
     color: whitesmoke;
     background-color: whitesmoke;
-    border: 4px solid #0892d0;
+    border: 1vw solid #0892d0;
     border-radius: 2vw;
     padding-left: 2%;
     padding-right: 2%;
+    margin-left: 5vw;
     text-align: center;
     visibility: hidden;
     color: black;
@@ -39,7 +43,7 @@
 }
 
 .line{
-    position: absolute;
+    position: fixed;
     border-left: 5px solid #0892d0;
     height: 210%;
     margin: 0px;
@@ -58,7 +62,7 @@ body{
     position: fixed;
     height: 100%;
     background: black;
-    z-index: -2;
+    z-index: -100;
     width: 100vw;
 }
 
@@ -74,13 +78,10 @@ body{
 }
 
 .fa-circle{
-    position: absolute;
     display: flex;
     flex-direction: column;
     font-size: 30px; 
-    margin-left: 48.65vw;
     color: whitesmoke;
-    margin-top: -19vh;
 }
 
 .fa-circle:hover{
