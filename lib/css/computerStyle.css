@@ -35,7 +35,7 @@
     border-radius: 2vw;
     padding-left: 2%;
     padding-right: 2%;
-    margin-left: 5vw;
+    margin-left: 4.5vw;
     text-align: center;
     visibility: hidden;
     color: black;
@@ -44,11 +44,11 @@
 
 .line{
     position: fixed;
-    border-left: 5px solid #0892d0;
-    height: 210%;
+    border-left: .7vw solid #0892d0;
+    height: 100%;
     margin: 0px;
     padding: 0px;
-    margin-left: 49.6vw;
+    margin-left: 49.65vw;
     z-index: -1;
 }
 
@@ -80,7 +80,8 @@ body{
 .fa-circle{
     display: flex;
     flex-direction: column;
-    font-size: 30px; 
+    font-size: 3vw;
+    height: 3vw;
     color: whitesmoke;
 }
 
