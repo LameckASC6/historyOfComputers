@@ -48,9 +48,7 @@
     position: fixed;
     border-left: .7vw solid #0892d0;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
-    margin-left: 49.65vw;
+    margin-left: 48.6vw;
     z-index: -1;
 }
 
@@ -84,8 +82,8 @@ body{
     font-size: 3vw;
     height: 3vw;
     color: whitesmoke;
-    width: 100vw;
     text-align: center;
+    width: 98vw;
 }
 
 .fa-circle:hover{
