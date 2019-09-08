@@ -25,12 +25,14 @@ body{
     display: flex;
     flex-direction: row;
     width: 100vw;
+    height: 100vh;
+    overflow: hidden;
     justify-content: space-around;
     transition: justify-content 30s;
 }
 
 .enemy{
-    margin-top: 70vh;
+    margin-top: 100vh;
     height: 20vw;
     width: 20vw;
     filter: hue-rotate(180deg) brightness(110%);
