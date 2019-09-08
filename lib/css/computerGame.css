@@ -13,6 +13,7 @@ body{
     height: 20vw;
     width: 20vw;
     margin-left: 40vw;
+    z-index: 0;
 }
 
 .outer {
@@ -31,12 +32,26 @@ body{
     transition: justify-content 30s;
 }
 
+@keyframes travel {
+    from {
+      margin-top: -45vh;
+    }
+  
+    to {
+      margin-top: 100vh;
+    }
+  }
+  
 .enemy{
     margin-top: 100vh;
     height: 20vw;
     width: 20vw;
     filter: hue-rotate(180deg) brightness(110%);
-    transition: margin-top 30s;
+
+    z-index: 0;
+    animation-duration: 10s;
+    animation-name: travel;
+    animation-iteration-count: infinite;
 }
 
 #road{
@@ -48,3 +63,4 @@ body{
     width: 50vw;
     z-index: -1;
 }
+
