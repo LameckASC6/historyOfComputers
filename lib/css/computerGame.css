@@ -26,6 +26,33 @@ h1{
     animation-iteration-count: infinite;
 }
 
+#firstCar{
+    opacity: 1;
+    transition: 1s;
+}
+
+#firstCar.fade {
+    opacity: 0;
+}
+
+#secondCar{
+    opacity: 1;
+    transition: 1s;
+}
+
+#secondCar.fade {
+    opacity: 0;
+}
+
+#thirdCar{
+    opacity: 1;
+    transition: 1s;
+}
+
+#thirdCar.fade {
+    opacity: 0;
+}
+
 #particles-js{
     position: fixed;
     height: 125vh;
