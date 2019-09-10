@@ -17,9 +17,9 @@ body{
 
 #taxi{
     position: absolute;
-    margin-top: 50vh;
-    height: 20vw;
-    width: 20vw;
+    margin-top: 70vh;
+    height: 10vw;
+    width: 10vw;
     margin-left: 40vw;
     z-index: 0;
 }
@@ -28,14 +28,7 @@ body{
     overflow: hidden;
 
 }
-@keyframes flexBox {
-    from{
-        justify-content: none;
-    }
-    to{
-        justify-content: space-around;
-    }
-}
+
 .inner {
     position: absolute;
     display: flex;
@@ -48,23 +41,22 @@ body{
 
 @keyframes travel {
     from {
-      margin-top: -25vh;
+      margin-top: -10vh;
       margin-left: 0;
       margin-right: 0;
       
     }
   
     to {
-      margin-top: 110vh;
+      margin-top: 100vh;
       margin-left: 5vw;
       margin-right: 5vw;
     }
   }
   
 .enemy{
-    margin-top: 100vh;
-    height: 20vw;
-    width: 20vw;
+    height: 10vw;
+    width: 10vw;
     filter: hue-rotate(180deg) brightness(110%);
     margin: auto;
     z-index: 0;
@@ -76,10 +68,11 @@ body{
 #road{
     position: absolute;
     border-bottom: 100vh solid #555;
-	border-left: 20vw solid transparent;
-	border-right: 20vw solid transparent;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
 	height: 0px;
-    width: 60vw;
+    width: 30vw;
+    margin-left: 25vw;;
     z-index: -1;
 }
 
