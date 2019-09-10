@@ -4,6 +4,29 @@ body{
     margin: 0px;
 }
 
+@keyframes textTravel {
+    from {
+      margin-top: -7vh;
+      margin-left: 3vw;
+      margin-right: 3vw;
+    }
+  
+    to {
+      margin-top: 103vh;
+      margin-left: 8vw;
+      margin-right: 8vw;
+    }
+  }
+
+h1{
+    color: black;
+    margin-top: 73vh;
+    font-size: 2vw;
+    animation-name: textTravel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
 #particles-js{
     position: fixed;
     height: 125vh;
@@ -24,9 +47,14 @@ body{
     z-index: 0;
 }
 
-.outer {
+.textInner{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
-
 }
 
 .inner {
