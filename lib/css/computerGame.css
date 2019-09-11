@@ -6,15 +6,17 @@ body{
 
 @keyframes textTravel {
     from {
-      margin-top: -7vh;
-      margin-left: 3vw;
-      margin-right: 3vw;
+      margin-top: 10vh;
+      margin-left: 0vw;
+      margin-right: 0vw;
+      font-size: 0px;
     }
   
     to {
-      margin-top: 103vh;
-      margin-left: 8vw;
-      margin-right: 8vw;
+      margin-top: 88vh;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      font-size: 5vw;
     }
   }
 
@@ -22,7 +24,7 @@ h1{
     color: black;
     font-size: 2vw;
     animation-name: textTravel;
-    animation-duration: 10s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
 }
 
@@ -66,7 +68,7 @@ h1{
 
 #taxi{
     position: absolute;
-    margin-top: 70vh;
+    margin-top: 60vh;
     height: 10vw;
     width: 10vw;
     margin-left: 40vw;
@@ -94,15 +96,23 @@ h1{
 }
 
 @keyframes travel {
+    from{
+        width: 0px;
+        height: 0px;
+    }
+    to{
+        width: 20vw;
+        height: 20vw;
+    }
     from {
-      margin-top: -10vh;
+      margin-top: 10vh;
       margin-left: 0;
       margin-right: 0;
       
     }
   
     to {
-      margin-top: 100vh;
+      margin-top: 80vh;
       margin-left: 5vw;
       margin-right: 5vw;
     }
@@ -114,19 +124,32 @@ h1{
     filter: hue-rotate(180deg) brightness(110%);
     margin: auto;
     z-index: 0;
-    animation-duration: 10s;
+    animation-duration: 30s;
     animation-name: travel;
     animation-iteration-count: infinite;
 }
 
+#textBox{
+    position: absolute;
+    background-color: whitesmoke;
+    margin-top: 90vh;
+    width: 100vw;
+    height: 10vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
 #road{
     position: absolute;
-    border-bottom: 100vh solid #555;
-	border-left: 10vw solid transparent;
-	border-right: 10vw solid transparent;
+    border-bottom: 80vh solid #555;
+	border-left: 40vw solid transparent;
+	border-right: 40vw solid transparent;
 	height: 0px;
-    width: 30vw;
-    margin-left: 25vw;;
+    width: 0vw;
+    margin-top:10vh;
+    margin-left: 10vw;;
     z-index: -1;
 }
+
 
