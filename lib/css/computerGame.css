@@ -145,7 +145,7 @@ h1{
     position: absolute;
     background-color: #0892d0;
     margin-top: 90vh;
-    width: 100vw;
+    width: 98vw;
     height: 8vh;
     z-index: 10;
     text-align: center;
@@ -155,8 +155,7 @@ h1{
     font-weight: bold;
     text-decoration: overline underline;
     text-decoration-color: #E60000;
-    display:flex;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
 #road{
