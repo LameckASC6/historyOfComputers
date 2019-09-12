@@ -10,8 +10,7 @@
     border: 1vw solid #E60000;
 }
 
-.containersLeft{
-    order: -1;
+.containers{
     width: 30vw;
     color: whitesmoke;
     background-color: whitesmoke;
@@ -27,21 +26,6 @@
 
 .startUp{
     visibility: visible;
-}
-
-.containersRight{
-    order: 1;
-    width: 30vw;
-    color: whitesmoke;
-    background-color: whitesmoke;
-    border: 1vw solid #0892d0;
-    border-radius: 2vw;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: center;
-    visibility: hidden;
-    color: black;
-    cursor: pointer;
 }
 
 .line{
